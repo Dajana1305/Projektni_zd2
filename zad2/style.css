@@ -1,0 +1,31 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0;
+    font-size:16px;
+}
+#banner{
+    background: url(img/banner.jpg) gray;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    overflow:hidden;
+    background-color:rgb(54, 54, 54);
+}
+ul li{
+    float:left;
+}
+ul li a{
+    display:block;
+    padding:20px 12px;
+    text-decoration:none;
+    color:white;
+}
+ul li a:hover{
+    background-color: black;
+}
